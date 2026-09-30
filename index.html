@@ -223,10 +223,8 @@
 
     .board {
       width: 100%;
-      aspect-ratio: 1;
       display: grid;
       grid-template-columns: repeat(8, minmax(0, 1fr));
-      grid-template-rows: repeat(8, minmax(0, 1fr));
       overflow: hidden;
       border: 3px solid var(--board-dark);
       border-radius: 7px;
@@ -239,6 +237,7 @@
       position: relative;
       min-width: 0;
       min-height: 0;
+      aspect-ratio: 1;
       margin: 0;
       padding: 0;
       display: grid;
